@@ -83,5 +83,23 @@ header .contenedor-textos-header .call-to-action{
 header .contenedor-textos-header .call-to-action:hover{
     background: #15a4fa;
     color: #fff;
+}
 
+main .acerca-de{
+    background: #f0f3f5;
+    padding: 30px 0;
+    text-align: center;
+}
+
+main .acerca-de .contenedor-texto-acerca .titulo-acerca{
+    font-size: 24px;
+    font-weight: 900;
+    /*color: #999999;*/
+    margin-bottom: 20px;
+}
+
+main .acerca-de .contenedor-texto-acerca .parrafo-acerca{
+    columns: #999999;
+    font-size: 600;
+    margin-bottom: 20px;
 }
