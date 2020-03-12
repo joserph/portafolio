@@ -188,4 +188,76 @@ footer .footer-textos .titulo-parrafo{
 footer .formulario{
     display: flex;
     flex-direction: column;
+    width: 80%;
+    margin: auto;
 }
+
+footer .formulario .nombre-contacto, footer .formulario .nombre-correo, footer .formulario .mensaje{
+    display: inline-block;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid #999999;
+    color: #999999;
+    border-radius: 3px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+footer .formulario .mensaje{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+footer .formulario .derecha{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .formulario .boton-envio{
+    display: inline-block;
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid #15a4fa;
+    color: #fff;
+    border-radius: 3px;
+}
+
+footer .formulario .boton-envio:hover{
+    background: #15a4fa;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    header .menu{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    header .contenedor-textos-header{
+        margin: 100px 0;
+    }
+}
+
+@media screen and (max-width:540px){
+    header .contenedor-textos-header .titulo-header{
+        font-size: 60px;
+    }
+    .contenedor-iconos{
+        flex-direction: column;
+    }
+    .contenedor-iconos .icono-individual{
+        width: 90%;
+        margin: auto;
+    }
+    main .portafolio .contenedor-portafolio{
+        justify-content: space-around;
+    }
+    main .portafolio .contenedor-portafolio img{
+        width: 48%;
+    }
+}
+
